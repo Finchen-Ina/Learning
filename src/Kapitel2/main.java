@@ -14,23 +14,34 @@ public class main {
 		//hund1.bellen();
 		//hund1.name = "Bert";
 		
+		/*
+		Hund eins = new Hund();
+		eins.setGroesse(70);
+		Hund zwei = new Hund();
+		zwei.setGroesse(8);
+		System.out.print("Hund eins: " + eins.getGroesse());
+		System.out.print("Hund zwei: " + zwei.getGroesse());
+		eins.bellen(2);;
+		zwei.bellen(7);
+		*/
+		
 		//Hund Array erzeugen
 		Hund[] meineHunde = new Hund[3];
 		//Hund Array befüllen
 		meineHunde[0] = new Hund();
-		meineHunde[0].groesse = 70;
+		meineHunde[0].setGroesse(70);
 		meineHunde[0].name = "Finchen";
-		meineHunde[0].bellen();
+		meineHunde[0].bellen(3);
 		
 		meineHunde[1] = new Hund();
-		meineHunde[0].groesse = 8;
+		meineHunde[1].setGroesse(8);
 		meineHunde[1].name = "Bella";
-		meineHunde[1].bellen();
+		meineHunde[1].bellen(1);
 		
 		meineHunde[2] = new Hund();
-		meineHunde[0].groesse = 35;
+		meineHunde[2].setGroesse(35);
 		meineHunde[2].name = "Mira";
-		meineHunde[2].bellen();
+		meineHunde[2].bellen(7);
 		
 		//System.out.print("Der Name des letzten Hundes ist: ");
 		//System.out.println(meineHunde[2].name);
