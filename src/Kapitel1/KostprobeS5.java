@@ -1,5 +1,7 @@
 package Kapitel1;
 
+import Kapitel2.Hund;
+
 public class KostprobeS5 {
 
 	
