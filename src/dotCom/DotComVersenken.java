@@ -68,5 +68,10 @@ public class DotComVersenken {
 			spiel.spielEinrichten();
 			spiel.beginneSpiel();
 		}
+		
+		
 	}
 }
+
+
+
